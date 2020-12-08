@@ -86,6 +86,7 @@ header {
 
 .button_main {
     width: 240px;
+    margin-top: 39px;
 }
 
 .button_green {
@@ -101,18 +102,31 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 85px;
 }
 
 .main__navigation__list {
-    list-style-type: none;
     display: flex;
+    list-style-type: none;
     text-transform: uppercase;
+    padding: 0;
 }
 
-.main__navigation__list a {
+.main__navigation__link {
     color: #000000;
+}
+
+.main__navigation__item {
     padding-right: 47px;
+}
+
+.main__navigation__item:nth-child(4) {
+    padding-right: 0px;
+}
+
+.main__navigation__link:hover,
+.main__navigation__link:focus,
+.main__navigation__link:active {
+  color: #5a5a5a;
 }
 
 .main__navigation__user {
@@ -122,4 +136,44 @@ header {
 
 .main__navigation__user a {
     color: #000000;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.wrapper__title {
+    font-size: 55px;
+    line-height: 52px;
+}
+
+.wrapper__descr {
+    color: #283136;
+    margin-top: 28px;
+}
+
+.carousel__img {
+    margin-left: 55px;
+    margin-top: 18px;
+}
+
+.features__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.features__item {
+    list-style-type: none;
+}
+
+.features__title {
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.features__descr {
+    margin-bottom: 31px;
 }
