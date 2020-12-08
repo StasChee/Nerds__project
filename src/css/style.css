@@ -1,0 +1,125 @@
+/* base */
+body {
+    min-width: 960px;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', Arial, serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+  }
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+header {
+    background-color: #eeeeee;
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 1160px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.button {
+    display: block;
+    background-color: #fb565a;
+    width: 160px;
+    height: 50px;
+    border-radius: 2px;
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  transition: 0.5s all;
+  background-color: #9e383a;
+}
+
+.button_green:hover,
+.button_green:focus,
+.button_green:active {
+  transition: 0.5s all;
+  background-color: #017a46;
+}
+
+.button_yellow:hover,
+.button_yellow:focus,
+.button_yellow:active {
+  transition: 0.5s all;
+  background-color: #8b752b;
+}
+
+.button_main {
+    width: 240px;
+}
+
+.button_green {
+    background-color: #00ca74;
+}
+
+.button_yellow {
+    background-color: #efc84a;
+}
+
+/* main */
+.main__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 85px;
+}
+
+.main__navigation__list {
+    list-style-type: none;
+    display: flex;
+    text-transform: uppercase;
+}
+
+.main__navigation__list a {
+    color: #000000;
+    padding-right: 47px;
+}
+
+.main__navigation__user {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.main__navigation__user a {
+    color: #000000;
+}

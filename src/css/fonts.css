@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('../fonts/roboto'), local('Roboto-ThinItalic'),
+        url('../fonts/roboto.woff2') format('woff2'),
+        url('../fonts/robotoc.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('../fonts/robotomedium'), local('Roboto-ThinItalic'),
+        url('../fonts/robotomedium.woff2') format('woff2'),
+        url('../fonts/robotomedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('../fonts/robotobold'), local('Roboto-ThinItalic'),
+        url('../fonts/robotobold.woff2') format('woff2'),
+        url('../fonts/robotobold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}

@@ -3,61 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Nёrds</title>
 </head>
 <body>
-    <header class="header">
-        <nav class="main__navigation">
-            <a href="#" class="main__navigation__logo">
-                <img src="img/main_logo.png" width="160" height="65" alt="Главный логотип сайта "Nёrds"">
-            </a>
-            <ul class="main__navigation__list">
-                <li>
-                    <a href="#">Студия</a>
-                </li>
-                <li>
-                    <a href="#">Клиенты</a>
-                </li>
-                <li>
-                    <a href="#">Магазин</a>
-                </li>
-                <li>
-                    <a href="#">Контакты</a>
-                </li>
-            </ul>
-            <ul class="main__navigation__user">
-                <li>
-                    <a href="#">Корзина</a>
-                </li>
-            </ul>
-        </nav>
+    <header> 
+        <div class="container">
+            <nav class="main__navigation">
+                <a href="#" class="main__navigation__logo">
+                    <img src="img/main_logo.png" width="160" height="65" alt="Главный логотип сайта "Nёrds"">
+                </a>
+                <ul class="main__navigation__list">
+                    <li>
+                        <a href="#">Студия</a>
+                    </li>
+                    <li>
+                        <a href="#">Клиенты</a>
+                    </li>
+                    <li>
+                        <a href="#">Магазин</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+                <ul class="main__navigation__user">
+                    <li>
+                        <a href="#">Корзина</a>
+                    </li>
+                </ul>
+            </nav>
 
-        <section class="carousel">
+            <section class="carousel">
            
-            <strong>Долго, дорого, скрупулезно.</strong>
-            <p>Математически выверенный дизайн<br>
-            для вашего сайта или мобильного приложения.</p>
-            <a href="#" class="button">УЗНАТЬ БОЛЬШЕ</a>
-            <a href="#">
-                <img src="img/slide1.jpg" width="698" height="413" alt="Приложение">
-            </a>
-            
-            <!-- <a href="#">
-                <strong>Любим математику как никто другой.</strong>
-                <p>Никакого креатива, только математические формулы<br>
-                для расчета идельных пропорций.</p>
-                <a href="#" class="button">УЗНАТЬ БОЛЬШЕ</a>
-                <img src="img/slide2.jpg" width="698" height="413" alt="Приложение">
-            </a>
-            <a href="#">
-                <strong>Только ночь, только хардкор.</strong>
-                <p>Работать днем, как все? Мы против этого<br>
-                Ближе к полуночи работа только начинается.</p>
-                <a href="#" class="button">УЗНАТЬ БОЛЬШЕ</a>
-                <img src="img/slide3.jpg" width="698" height="413" alt="Приложение">
-            </a> -->
-        </section>
+                <strong>Долго, дорого, скрупулезно.</strong>
+                <p>Математически выверенный дизайн<br>
+                для вашего сайта или мобильного приложения.</p>
+                <button class="button button_main">УЗНАТЬ БОЛЬШЕ</button>
+                <a href="#">
+                    <img src="img/slide1.png" width="698" height="413" alt="Приложение">
+                </a>
+                
+                <!-- <a href="#">
+                    <strong>Любим математику как никто другой.</strong>
+                    <p>Никакого креатива, только математические формулы<br>
+                    для расчета идельных пропорций.</p>
+                    <a href="#" class="button">УЗНАТЬ БОЛЬШЕ</a>
+                    <img src="img/slide2.jpg" width="698" height="413" alt="Приложение">
+                </a>
+                <a href="#">
+                    <strong>Только ночь, только хардкор.</strong>
+                    <p>Работать днем, как все? Мы против этого<br>
+                    Ближе к полуночи работа только начинается.</p>
+                    <a href="#" class="button">УЗНАТЬ БОЛЬШЕ</a>
+                    <img src="img/slide3.jpg" width="698" height="413" alt="Приложение">
+                </a> -->
+            </section>
+        </div>
     </header>
     <main class="container">
         <h1 class="visually-hidden">Дизайн студиа Нёрдс</h1>
@@ -71,7 +74,7 @@
                     <h2>Веб-сайты</h2>
                     <p>Мир никогда не будет прежним<br>
                     после того как увидит ваш сайт!</p>
-                    <a href="" class="button button_red">ЗАКАЗАТЬ</a>
+                    <button class="button button_red">ЗАКАЗАТЬ</button>
                 </li>
                 <li class="features__item">
                     <a href="#">
@@ -80,7 +83,7 @@
                     <h2>Приложения</h2>
                     <p>Покорите топ-10 приложений в<br> 
                     AppStore и Google Play</p>
-                    <a href="" class="button button_green">ЗАКАЗАТЬ</a>
+                    <button class="button button_green">ЗАКАЗАТЬ</button>
                 </li>
                 <li class="features__item">
                     <a href="#">
@@ -89,7 +92,7 @@
                     <h2>Презентации</h2>
                     <p>Вы даже не подозреваете,<br>
                     насколько вы изумительны!</p>
-                    <a href="" class="button button_yellow">ЗАКАЗАТЬ</a>
+                    <button class="button button_yellow">ЗАКАЗАТЬ</button>
                 </li>
             </ul>
         </section>
