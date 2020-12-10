@@ -28,14 +28,54 @@
                         <a href="#" class="main__navigation__link">Контакты</a>
                     </li>
                 </ul>
-                <ul class="main__navigation__user">
-                    <li>
-                        <a href="#">Корзина</a>
-                    </li>
-                </ul>
+                <a href="#" class="navigation__user__link">
+                    <ul class="main__navigation__user">
+                        <li>
+                            Корзина
+                        </li>
+                    </ul>
+                </a>
             </nav>
+            <!-- /////////////////////////////////// -->
+            <div class="slider">
+                <input type="radio" id="btn-1" name="toggle" checked>
+                <input type="radio" id="btn-2" name="toggle">
+                <input type="radio" id="btn-3" name="toggle">
+                <div class="slider-controls">
+                  <label for="btn-1"></label>
+                  <label for="btn-2"></label>
+                  <label for="btn-3"></label>
+                </div>
+                <div class="slides">
+                  <div class="slide">
+                    <div class="slide-text">
+                      <div class="slide-title">Долго, дорого, скрупулезно</div>
+                      <p>Математически выверенный дизайн<br>
+                      для вашего сайта или мобильного приложения.</p>
+                      <button class="button button_main">УЗНАТЬ БОЛЬШЕ</button>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slide-text">
+                      <div class="slide-title">Дорого, скрупулезно</div>
+                      <p>Математически выверенный дизайн<br>
+                      для вашего сайта или мобильного приложения.</p>
+                      <button class="button button_main">УЗНАТЬ БОЛЬШЕ</button>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <div class="slide-text">
+                      <div class="slide-title">Скрупулезно</div>
+                      <p>Математически выверенный дизайн<br>
+                      для вашего сайта или мобильного приложения.</p>
+                      <button class="button button_main">УЗНАТЬ БОЛЬШЕ</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-            <section class="carousel">
+
+            <!-- <section class="carousel">
            
                 <div class="carousel__wrapper">
                     <strong class="wrapper__title">Долго, дорого,<br> 
@@ -47,7 +87,7 @@
 
                 <img src="img/slide1.png" width="698" height="413" alt="Приложение" class="carousel__img">
                 
-                <!-- <a href="#">
+                <a href="#">
                     <strong>Любим математику как никто другой.</strong>
                     <p>Никакого креатива, только математические формулы<br>
                     для расчета идельных пропорций.</p>
@@ -156,6 +196,35 @@
             </div>
         </div>
     </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="social">
+                    <a href="#">
+                        <div class="social__round">
+                            <img src="img/vk-icon.svg" alt="vk" class="social__img__vk">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="social__round">
+                            <img src="img/fb-icon.svg" alt="fb" class="social__img__fb">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="social__round">
+                            <img src="img/insta-icon.svg" alt="inst" class="social__img__inst">
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="tagline">
+                    <strong class="tagline__title">Давайте дружить, это выгодно!</strong>
+                    <p class="tagline__descr">Скидка 10% для друзей из социальных сетей.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
